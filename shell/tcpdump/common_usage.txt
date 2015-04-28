@@ -1,0 +1,3 @@
+tcpdump -i wl1 -G 86400 -W 14 -C 1000 -w /userdisk/data/wl1.pcap. &
+tcpdump -i wl1 -G 3600 -w /userdisk/data/wl1_%Y%m%d_%H%M%S.pcap &
+tcpdump -D  # to display interface available
